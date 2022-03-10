@@ -1,0 +1,298 @@
+<html lang="en">
+    <head>
+        <title>Christian Gerace</title>
+        <script defer src='index.js'></script>
+        <script src="https://kit.fontawesome.com/3db36450b8.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href='./public/stylesheets/theme.css'/>
+        <link rel="stylesheet" type="text/css" href='./public/stylesheets/bootstrap_modifications.css'/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="./public/assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./public/assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./public/assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="./public/assets/favicons/site.webmanifest">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155375565-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-155375565-1');
+        </script>
+    </head>
+    <body>
+        <div id = 'intro' >
+            <div id = 'marquee'>
+                <h1>GREETINGS,</h1>
+                <h1>LET'S LIFT OFF!</h1>
+            </div>
+            <img id = 'spaceshipIntro' src = './public/assets/images/SpaceShip.png' style = "top: 500px; left: 50px;" />
+        </div>
+        <div id = 'app'>
+
+            <div id = 'main'>
+
+                <div id = 'title'>
+                    <h1>CHRISTIAN GERACE</h1>
+                    <hr>
+                    <h3>FULLSTACK SOFTWARE ENGINEER</h3>
+                </div>
+
+                <div id = 'menu-container'>
+                    <div id = 'menu'>
+                        <div class = 'menu-nav' id = 'resume-nav'>
+                            <a data-toggle="modal" data-target="#resumeModal">
+                                <h1>RESUME</h1>
+                                <img id = 'flyingsaucer' src = './public/assets/images/Flying Saucer Blue Lights v2.png.png' />
+                            </a>
+                        </div>
+                        <div class = 'menu-nav' id = 'about-me-nav'>
+                            <a data-toggle="modal" data-target="#aboutModal">
+                                <h1>ABOUT</h1>
+                                <img id = 'astronaut' src = './public/assets/images/Astronaut Shadow.png' />
+                            </a>
+                        </div>
+                        <div class = 'menu-nav' id = 'projects-nav'>
+                            <a data-toggle="modal" data-target="#projectsModal">
+                                <h1>PROJECTS</h1>
+                                <img id = 'spaceship' src = './public/assets/images/SpaceShip.png' />
+                            </a>
+                        </div>
+                        <div class = 'menu-nav' id = 'contact-nav'>
+                            <h1>CONTACT</h1>
+                            <div id = 'contact-icons' >
+                                <a href = 'mailto:cgerace8@gmail.com'>
+                                    <i class="fas fa-envelope" id = 'email'></i>
+                                </a>
+                                <a href = 'https://www.linkedin.com/in/christiangerace/' target = 'blank'>
+                                    <i class="fab fa-linkedin icon" id = 'linkedin'></i>
+                                </a>
+                                <a href = 'https://github.com/cgerace' target = 'blank'>
+                                    <i class="fab fa-github" id ='github'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id = 'footer'>
+                    <p>*All images (not including contact icons) are Christian Gerace originals!</p>
+                </div>
+            </div>
+
+            <div id = 'planets'>
+                <div id = 'sun'>
+                    <img src = './public/assets/images/Sun.png' />
+                </div>
+                </br>
+                <div id = 'mercury' class = 'planet' >
+                    <img src = './public/assets/images/Mercury.png' />
+                </div>
+                </br>
+                <div id = 'venus' class = 'planet' >
+                    <img src = './public/assets/images/Venus.png'/>
+                </div>
+                </br>
+                <div id = 'earth' class = 'planet' >
+                    <img src = './public/assets/images/Earth.png' />
+                </div>
+                </br>
+                <div id = 'mars' class = 'planet' >
+                    <img src = './public/assets/images/Mars.png' />
+                </div>
+                </br>
+                <div id = 'jupiter' class = 'planet'>
+                    <img src = './public/assets/images/Jupiter.png' />
+                </div>
+                </br>
+                <div id = 'saturn' class = 'planet'>
+                    <img src = './public/assets/images/Saturn.png' />
+                </div>
+                </br>
+                <div id = 'uranus' class = 'planet'>
+                    <img src = './public/assets/images/Uranus.png' />
+                </div>
+                </br>
+                <div id = 'neptune' class = 'planet'>
+                    <img src = './public/assets/images/Neptune.png' />
+                </div>
+                </br>
+            </div>
+    
+                <!--------- RESUME MODAL ---------------->
+                <div id="resumeModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-header modal-header-title" >
+                                <h1>RESUME</h1>
+                                <a href = './public/assets/resume/christian_gerace_resume.png' download><img src = './public/assets/icons/download.png' id = 'download' /></a>
+                            </div>
+                            <div class="modal-body" id = 'resume'>
+                                <img src = './public/assets/resume/christian_gerace_resume.png'>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                <!--------- RESUME MODAL ---------------->
+    
+    
+    
+                <!--------- ABOUT MODAL ---------------->
+                <div id="aboutModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-header modal-header-title" >
+                                <h1>ABOUT</h1>
+                            </div>
+                            <div class="modal-body" id = 'about'>
+                                <img src = './public/assets/headshot/me.JPG' />
+                                <p>
+                                I spent the first 5+ years of my career doing Data Analytics for 
+                                Johnson & Johnson and The Muse, and overtime came to realize that 
+                                the part of my job that I enjoyed most was creating complex SQL 
+                                queries, which required intensive logic problem solving. This led me to seek a career 
+                                path that would bring me closer to this kind of work, and so I 
+                                started teaching myself to program for a good 2 months. Through 
+                                learning Javascript and Ruby I was able to build mini-apps and 
+                                games, using programming as a channel of expression and a means of 
+                                challenging how I think. Ultimately I decided to enroll in 
+                                Fullstack Academy to learn from knowledgeable teachers, participate in 
+                                individual and group projects, and grow as an engineer alongside 
+                                my peers.
+                                <br/>
+                                <br/>
+                                In addition to my passion for creating web apps and games, I am an avid
+                                rock climber (gym climber) as well a voracious reader of non-fiction!
+                                <br/>
+                                <br/>
+                                Technologies I am proficient in: 
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>React.js</li>
+                                    <li>Redux.js</li>
+                                    <li>Node.js</li>
+                                    <li>Sequelize</li>
+                                    <li>Express.js</li>
+                                    <li>PostgreSQL</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>SQL</li>
+                                    <li>React Native</li>
+                                    <li>Semantic UI React</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--------- ABOUT MODAL ---------------->
+
+                <!--------- PROJECTS MODAL ---------------->
+                <div id="projectsModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-header modal-header-title" >
+                                    <h1>PROJECTS</h1>
+                                </div>
+                                <div class="modal-body" id = 'projects'>
+                                    <div id = 'recordshop'>
+                                        <div class = 'project-header'>
+                                            <img src = './public/assets/project displays/vinyls.jpg' />
+                                        </div>
+                                        <div class = 'project-content'>
+                                            <p><span>The</span> Record Shop is an e-commerce site for consumers to shop a 
+                                                large selection of classic vinyls. The site offers cart functionality,
+                                                user checkout, order history, inventory management, and many other features.
+                                            <br/>
+                                            <br/>
+                                            Shop today <a href = 'http://the-record-shop.herokuapp.com/' target = '_blank' >here</a> and checkout out the repo on <a href = 'https://github.com/cgerace/the-record-shop' target = '_blank' >Github</a>
+                                            <br/>
+                                            Technologies:
+                                            <ul>
+                                                <li>Javascript</li>
+                                                <li>React.js</li>
+                                                <li>Redux.js</li>
+                                                <li>Node.js</li>
+                                                <li>Sequelize</li>
+                                                <li>Express.js</li>
+                                                <li>Semantic UI React</li>
+                                            </ul>
+                                            </p>
+                                        </div>
+                                        <hr/>
+                                    </div>
+                                    <div id = 'yellowbrickroad'>
+                                        <div class = 'project-header'>
+                                            <img src = './public/assets/project displays/yellow_brick_road.jpg' />
+                                        </div>
+                                        <div class = 'project-content'>
+                                            <p><span>Yellow</span> Brick Road is a navigation app that allows users 
+                                                to create, share, and experience tours in augmented reality. The AR app 
+                                                guides users through their actual environment using a 3-d line,
+                                                utilizing the user’s camera to track their position relative to the start 
+                                                of the tour. This technology allows for indoor navigation, for example 
+                                                at museums, subway stations, or stadiums.
+                                            <br/>
+                                            <br/>
+                                            Check out the repo on <a href = 'https://github.com/Thunkaroos/YellowBrickRoad' target = '_blank' >Github</a>
+                                            <br/>
+                                            Technologies:
+                                            <ul>
+                                                <li>Javascript</li>
+                                                <li>React.js</li>
+                                                <li>Redux.js</li>
+                                                <li>Node.js</li>
+                                                <li>Sequelize</li>
+                                                <li>Express.js</li>
+                                                <li>ViroReact</li>
+                                                <li>NativeBase</li>
+                                            </ul>
+                                            </p>
+                                        </div>
+                                        <hr/>
+                                    </div>
+                                    <div id = 'chess'>
+                                        <div class = 'project-header'>
+                                            <img src = './public/assets/project displays/chess.jpg' />
+                                        </div>
+                                        <div class = 'project-content'>
+                                            <p><span>Chess</span> is a re-creation of the timeless strategy board game. This version
+                                                which only utilizes basic rules (no castling, pawn promotion, or "en passant") and was my
+                                                first project as a developer, uses only vanilla Javscript (no classes), HTML, and CSS.
+                                                The game is for two players, with work in progress to enable sockets, allowing for online
+                                                play with friends.
+                                            <br/>
+                                            <br/>
+                                            Find a friend and get playing <a href = 'http://christian-gerace-chess.surge.sh/' target = '_blank' >here</a> and check out the repo on <a href = 'https://github.com/cgerace/chess' target = '_blank' >Github</a>
+                                            <br/>
+                                            Technologies:
+                                            <ul>
+                                                <li>Javascript</li>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                            </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--------- ABOUT MODAL ---------------->
+        </div>
+    </body>
+</html>
